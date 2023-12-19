@@ -1,0 +1,31 @@
+###GET API 1 /todos/
+### Scenario 1
+GET http://localhost:3000/todos/?status=TO%20DO
+
+### Scenario 2
+GET http://localhost:3000/todos/?priority=HIGH
+
+### Scenario 3
+GET http://localhost:3000/todos/?priority=HIGH&status=IN%20PROGRESS
+
+### Scenario 4
+GET http://localhost:3000/todos/?search_q=Buy
+
+### Scenario 5
+GET http://localhost:3000/todos/?category=WORK&status=DONE
+
+### Scenario 6
+GET http://localhost:3000/todos/?category=HOME
+
+### Scenario 7
+GET http://localhost:3000/todos/?category=LEARNING&priority=HIGH
+
+
+### GET API 2 /todos/:todoId/
+GET http://localhost:3000/todos/1/
+
+
+### GET API 3 /agenda/
+GET http://localhost:3000/agenda/?date=2021-12-12
+
+
